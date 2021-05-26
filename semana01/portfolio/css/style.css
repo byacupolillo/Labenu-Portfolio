@@ -1,0 +1,139 @@
+*{
+  box-sizing: border-box;
+}
+
+html, body {
+  min-height: 100vh;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper{
+  display: flex;
+  height: 100vh;
+}
+
+.menu-nav-flex {
+  display: flex;
+  flex-direction: column;
+  background-color: #111;
+  height: 50px;
+}
+
+.menu-nav-flex ul{
+  text-align: right;
+}
+
+@media (max-width: 768px) {
+  .menu ul {
+    text-align: center;
+  }
+}
+
+.menu-nav-flex li{
+  display: inline;
+}
+  
+.menu-nav-flex a {
+  color: white;
+  padding: 16px;
+  text-decoration: none;
+}
+  
+.menu-nav-flex a:hover {
+  background-color: #ddd;
+  color: black;
+}
+  
+.conteudo {
+  padding: 40px;
+  text-align: justify;
+  width: 100%;
+}
+
+.conteudo h2{
+  text-align: center;
+}
+
+.introducao h1{
+  text-align: center;
+}
+
+.perfil-fixo{
+  background-color: #111;
+  width: 300px;
+  text-align: center;
+}
+
+.perfil-fixo p{
+  padding: 20px;
+  text-align: center;
+  color: #ddd;
+}
+
+.perfil-fixo h1{
+  color: #ddd;
+  text-align: center;
+}
+
+.perfil-fixo img{
+  border-radius: 50%;
+  width: 150px;
+  margin-top: 30px;
+}
+
+form{
+  margin: 0 auto;
+  width: 500px;
+  text-align: center;
+}
+
+form input{
+  width:400px;
+  padding: 1em;
+}
+
+form textarea{
+  width:400px;
+  padding:1em;
+}
+
+.fab{
+  color: #ddd;
+}
+
+.projetos{
+  display: flex;
+  text-align: center;
+}
+.projetos img{
+  width: 200px;
+  height: 150px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.projetos img:hover {
+  box-shadow: 0 0 2px 1px #00000086
+}
+
+.projetoLabenu{
+  text-align: center;
+}
+
+.projetoLabenu img{
+  width: 400px;
+  height: 300px;
+}
+
+.projeto2geek{
+  text-align: center;
+}
+
+.projeto2geek img{
+  width: 400px;
+  height: 300px;
+}
